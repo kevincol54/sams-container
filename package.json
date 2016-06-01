@@ -1,0 +1,17 @@
+{
+  "name": "sandbox3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export PORT=3003 && node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@twilson63/palmetto-couchdb": "^1.0.5",
+    "health-server": "^1.0.4",
+    "palmettoflow-event": "^1.1.2"
+  }
+}
